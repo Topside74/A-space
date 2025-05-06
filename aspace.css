@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body{
+    background: #121212;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(0,0,0,0.1);
+    height: 50px;
+    align-items: center;
+    display: flex;
+  
+}
+
+.navthings{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 20px;
+    
+}
+
+.return{
+    color: black;
+    background: rgb(55,255,55);
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.aicont{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.box{
+    height: 300px;
+    width: 405px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    transition: 0.6s ease;
+    border-radius: 15px;
+    background: #181818;
+ }
+
+
+
+
+
+
+.box:hover{
+    transform: translateY(-10px);
+    border-bottom: 2px solid  rgba(57,255,20,1);
+}
+
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 60px;
+    border: 5px solid #2C2C2C;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo h2{
+    position: relative;
+    top: 8px;
+}
+
+ul li{
+    font-size: 13px;
+}
+
+.tex{
+    height: 220px;
+    width: 300px;
+    position: relative;
+    top: -10px;
+    left: 100px;
+
+}
+
+.vert{
+    font-size: 20px;
+    font-weight: 700;
+    writing-mode: sideways-rl; 
+    position: relative;
+    transform: rotate(-90deg);
+    top: -150px;
+    left: -20px;
+    width: 110px;
+    border-radius: 60px;
+    text-align: center;
+    border: 3px solid #fff;
+    padding: 5px;
+}
+
+.btn{
+    position:relative;
+    top: -45px;
+    right: -308px;    
+}
+i{
+    color: #121212;
+}
+
+.visit{
+    background: rgb(55,255,55);
+    border: none;
+    height: 30px;
+    width: 90px;
+    padding: 3px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #121212;
+    transition: 0.6s ease;
+}
+
+.visit:hover{
+    background: rgb(20, 90, 47);
+}
+
+.hed{
+     text-align: center;    
+     position: relative;
+     top: 30px;
+     font-size: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    gap: 10px;
+}
+
+li{
+    font-size: 20px;
+}
