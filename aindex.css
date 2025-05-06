@@ -76,8 +76,62 @@ nav {
     justify-content: center;
 }
 
+.secone{
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
 .head{
     color: #e5e7eb;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 24px;
+}
+
+
+.btn{
+    position: relative;
+    top: 20px;
+}
+
+.topside{
+    height: 40px;
+    width: 150px;
+    font-weight: 200;
+    background: none;
+    color: rgb(141, 240, 204);
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.explore{
+    height: 40px;
+    width: 150px;
+    color: #121212;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+    border-radius: 10px;
+    background: rgb(141, 240, 204);
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.explore:hover{
+    background: rgba(141, 240, 204, 0.377);
+}
+
+
+.topside:hover{
+    color: rgba(141, 240, 204, 0.377);
+}
+
+
+.topside #move{
+    transition: 0.6s ease;
+    
+}
+
+.topside #move:hover{
+    transform: translateX(10px);
 }
