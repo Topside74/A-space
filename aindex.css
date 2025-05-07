@@ -38,10 +38,12 @@ nav {
     width: 80%;
     border-radius: 10px;
     opacity: 1;
-    position: relative;
+    position: absolute;
     top: 20px;
     display: flex;
     align-items: center;
+    position: fixed;
+
 }
 
 .logo{
@@ -75,6 +77,7 @@ nav {
 .nav{
     display: flex;
     justify-content: center;
+    
 }
 
 .secone{
@@ -170,3 +173,12 @@ nav {
     color: rgb(141, 240, 204);
     font-family: poppins, sans-serif;
 }
+
+
+.sectwo{
+    position: relative;
+    top: 25rem;
+}
+
+
+
