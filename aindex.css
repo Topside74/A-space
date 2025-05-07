@@ -165,3 +165,8 @@ nav {
     display: flex;
     align-items: center;
 }
+
+.gobe span{
+    color: rgb(141, 240, 204);
+    font-family: poppins, sans-serif;
+}
