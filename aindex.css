@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     border: 0 solid #e5e7eb;
+    outline: none;
 
 }
 
@@ -141,8 +142,9 @@ nav {
     transform: translateX(10px);
 }
 
+
 .log img{
-    height: 20px;
+    height: 25px;
     opacity: 1;
 
 }
@@ -151,10 +153,15 @@ nav {
     color: #b0b0b0;
     font-family: poppins, sans-serif;
     font-size: 15px;
+    position: relative;
+    top: -6px;
+
 
 }
 
 .ico{
     position: inherit;
-    top: 40px;
+    top: 100px;
+    display: flex;
+    align-items: center;
 }
