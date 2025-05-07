@@ -104,11 +104,13 @@ nav {
     height: 40px;
     width: 150px;
     font-weight: 200;
-    background: none;
+    background-color: rgba(141, 240, 204, 0.06);
     color: rgb(141, 240, 204);
     text-align: center;
     transition: 0.3s ease;
     cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 
