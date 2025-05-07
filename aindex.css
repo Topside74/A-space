@@ -253,10 +253,10 @@ nav {
 }
 
 .imgfr img{
-    height: 150px;
+    height: 140px;
     display: inline-block;
     flex-wrap: nowrap;
-    gap: 20px;
+    gap: 30px;
     border-radius: 20px;
     border: 2px solid #fff;
     
@@ -264,7 +264,8 @@ nav {
 }
 
 .imgfr{
-    margin-left: 6px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 
