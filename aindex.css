@@ -80,6 +80,7 @@ nav {
     position: relative;
     top: 150px;
     left: 150px;
+    margin-right: 150px;
 }
 
 .head{
@@ -104,6 +105,10 @@ nav {
     transition: 0.3s ease;
     cursor: pointer;
 }
+
+
+
+
 .explore{
     height: 40px;
     width: 150px;
