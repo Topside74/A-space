@@ -140,3 +140,21 @@ nav {
 .topside #move:hover{
     transform: translateX(10px);
 }
+
+.log img{
+    height: 20px;
+    opacity: 1;
+
+}
+
+.log label{
+    color: #b0b0b0;
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+
+}
+
+.ico{
+    position: inherit;
+    top: 40px;
+}
