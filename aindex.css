@@ -36,10 +36,12 @@ nav {
     backdrop-filter: blur(8px);
     background-color: rgba(12, 16, 18, 0.8);
     max-width: 80%;
+    height: 65px;
     width: 80%;
     border-radius: 10px;
     opacity: 1;
     position: absolute;
+    z-index: 1000;
     top: 20px;
     display: flex;
     align-items: center;
@@ -50,9 +52,19 @@ nav {
 .logo{
     color: #fff;
     position: relative;
-    left: 20px;
+    left: 10px;
     padding: 15px;
+    top: 25px;
     font-family: sans-serif;
+}
+.logo h2{
+    position: relative;
+    right: -110px;
+    top: -90px;
+}
+.logoimg{
+    height: 130px;
+    float: left;
 }
 
 .right{
@@ -251,7 +263,9 @@ nav {
     position: relative;
     right: -200px;
     top: -40px;
-    overflow-y: scroll;
+    overflow: auto;
+    flex-direction: column-reverse;
+
 }
 ::-webkit-scrollbar {
     display: none;
@@ -270,7 +284,9 @@ nav {
 
 .imgfr{
     margin-left: 20px;
-    margin-top: 155px;
+    margin-bottom: 150px;
 }
 
-
+.logoimg{
+    height: 130px;
+}
