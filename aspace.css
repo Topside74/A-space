@@ -105,13 +105,13 @@ nav {
 
 
 ::selection{
-  color: #fff;
-  background: #664AFF;
+  color: #e5e7eb;
+  background: black;
 }
 .search-box{
   position: relative;
-  height: 60px;
-  width: 60px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   box-shadow: 5px 5px 30px rgba(0,0,0,.2);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -133,6 +133,9 @@ nav {
 }
 .search-box input.active{
   opacity: 1;
+  backdrop-filter: blur(8px);
+  background-color: rgba(12, 16, 18, 0.8);
+  color: #fff;
 }
 .search-box input::placeholder{
   color: #a6a6a6;
@@ -142,14 +145,14 @@ nav {
   right: 0px;
   top: 50%;
   transform: translateY(-50%);
-  height: 60px;
-  width: 60px;
-  background: #fff;
+  height: 35px;
+  width: 35px;
+  background: none;
   border-radius: 50%;
   text-align: center;
-  line-height: 60px;
-  font-size: 22px;
-  color: #664AFF;
+  line-height: 35px;
+  font-size: 20px;
+  color: #f0f0f0;
   cursor: pointer;
   z-index: 1;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -160,7 +163,7 @@ nav {
   line-height: 50px;
   width: 50px;
   font-size: 20px;
-  background: #664AFF;
+  background: none;
   color: #fff;
   transform: translateY(-50%) rotate(360deg);
 }
@@ -170,13 +173,14 @@ nav {
   top: 50%;
   transform: translateY(-50%);
   font-size: 25px;
-  color: #fff;
+  color: rgba(12, 16, 18, 0.8);
   cursor: pointer;
   transition: all 0.5s 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .search-box .cancel-icon.active{
   right: -40px;
   transform: translateY(-50%) rotate(360deg);
+  color: #fff;
 }
 .search-box .search-data{
   text-align: center;
