@@ -36,7 +36,7 @@ nav {
     backdrop-filter: blur(8px);
     background-color: rgba(12, 16, 18, 0.8);
     max-width: 80%;
-    height: 65px;
+    height: 55px;
     width: 80%;
     border-radius: 10px;
     opacity: 1;
@@ -59,11 +59,11 @@ nav {
 }
 .logo h2{
     position: relative;
-    right: -110px;
-    top: -90px;
+    right: -88px;
+    top: -75px;
 }
-.logoimg{
-    height: 130px;
+.logo img{
+    height: 100px;
     float: left;
 }
 
