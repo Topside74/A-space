@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0 solid #e5e7eb;
+    outline: none;
+    font-family: poppins, sans-serif;
+
+}
+
+:root {
+    
+    --background: #121212;
+    --surface: rgba(28, 28, 36, 0.95);
+    --text-primary: #f0f0f0;
+    --text-secondary: #b0b0b0;
+    --accent: rgba(0, 230, 118, 0.7); 
+    --button-bg: rgba(0, 230, 118, 0.6); 
+    --button-text: #ffffff; 
+    --button-hover: rgba(0, 230, 118, 0.9); 
+    --link: rgba(0, 230, 118, 0.8); 
+    --link-hover: rgba(0, 230, 118, 1); 
+    --border: rgba(100, 100, 100, 0.5); 
+    --shadow: rgba(0, 0, 0, 0.5); 
+    --error: #ff6b6b;
+    --input-bg: rgba(50, 50, 60, 0.9); 
+    --highlight: rgba(0, 230, 118, 0.2); 
+}
+
+body{
+    background: black;    
+}
+
+
+nav {
+    backdrop-filter: blur(8px);
+    background-color: rgba(12, 16, 18, 0.8);
+    max-width: 80%;
+    height: 55px;
+    width: 80%;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+    z-index: 1000;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+}
+
+.logo{
+    color: #fff;
+    position: relative;
+    left: 10px;
+    padding: 15px;
+    top: 25px;
+    font-family: sans-serif;
+}
+.logo h2{
+    position: relative;
+    right: -88px;
+    top: -75px;
+}
+.logo img{
+    height: 100px;
+    position: relative;
+    top: -5px;
+    float: left;
+}
+
+.right{
+    color: #b0b0b0;
+    font-family: sans-serif;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right:20px;
+}
+
+.right a{
+    color: #b0b0b0;
+    padding: 15px;
+    transition: 0.6s ease;
+}
+
+.right a:hover{
+    color: #e5e7eb;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+orm{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #8c52ff;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 300px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #8c52ff;
+    color: white;
+}
