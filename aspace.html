@@ -39,17 +39,18 @@
 <section class="cards">
     <div class="card">
       <div class="card-box">Topside</div>
-      <img src="">
+      <img src="./1000090134.jpg" class="logochat">
       <h2>Topside AI</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quod non sed eveniet numquam perferendis.
       </p>
+      <a href=""><button class="btn">Try <i class="fa-solid fa-arrow-up"></i></button></a>
     </div>
 
 
     <div class="card">
       <div class="card-box">700 x 400</div>
-      <p>Second Project</p>
+      <h2>Second Project</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quod non sed eveniet numquam perferendis.
       </p>
@@ -95,7 +96,7 @@
 
 
 const searchEl = document.querySelector('.search-box');
-const x = document.querySelectorAll('.card p:nth-child(2)');
+const x = document.querySelectorAll('.card h2');
 
 function search(e){
   x.forEach((item,index) => {
