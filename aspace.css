@@ -212,13 +212,15 @@ nav {
 
 .cards{
   position: relative;
-  display: flex;
+  display: grid;
   flex-wrap: nowrap;
+   grid-template-columns: repeat(3, 0.2fr);
   top: 130px;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
+
 
 .card{
     backdrop-filter: blur(8px);
@@ -298,5 +300,5 @@ li:before {
 }
 
 .card:hover{
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
