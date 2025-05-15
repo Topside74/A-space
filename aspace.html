@@ -19,7 +19,7 @@
             
 
 <div class="search-box">
-      <input type="text" placeholder="Type to search AIs">
+      <input type="text" placeholder="Type to search AIs" id="searchInput" onkeyup="searchPosts()">
       <div class="search-icon">
         <i class="fas fa-search"></i>
       </div>
@@ -36,7 +36,25 @@
 </div>
 
 
+<section class="cards">
+    <div class="card">
+      <div class="card-box">700 x 400</div>
+      <p style="color:blue; font-size:1.5rem;">First Project</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quod non sed eveniet numquam perferendis.
+      </p>
+    </div>
 
+
+    <div class="card">
+      <div class="card-box">700 x 400</div>
+      <p style="color:blue; font-size:1.5rem;">Second Project</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quod non sed eveniet numquam perferendis.
+      </p>
+    </div>
+    //and seven more of same "card" class
+</div>
 
 
 
@@ -69,6 +87,28 @@
         searchData.classList.toggle("active");
         searchInput.value = "";
       }
+
+
+const searchEl = document.querySelector('.search-box');
+const x = document.querySelectorAll('.card p:nth-child(2)');
+
+function search(e){
+  x.forEach((item,index) => {
+    if(!item.innerHTML.toLowerCase().includes(e.target.value)){
+      item.parentElement.style.display = 'none';
+    }else {
+      item.parentElement.style.display = 'block';
+    }
+  })
+}
+
+searchEl.addEventListener("keyup", search);   
+
+
+
+
+
+      
     </script>
 
 
