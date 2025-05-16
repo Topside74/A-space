@@ -261,7 +261,7 @@ nav {
 .logochat{
   height: 50px;
   border-radius: 30px;
-  outline: 5px solid #121212;
+  border: 5px solid #121212;
   position: relative;
   top: 30px;
   left: 20px;
@@ -281,8 +281,8 @@ nav {
   border-radius: 10px;
   width: 80px;
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  right: 8px;
+  bottom: 8px;
   cursor: pointer;
   transition: 0.6s ease;
 
@@ -302,9 +302,10 @@ nav {
 
 .card li{
   color: #e5e7eb;
-  font-size: 12px;
+  font-size: 13px;
   position: relative;
   left: 40px;
+  top: -5px;
 }
 
 
