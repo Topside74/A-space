@@ -204,7 +204,7 @@ nav {
   top: 20px;
   left: 20px;
   padding: 5px;
-  width: 85px;
+  width: 130px;
   text-align: center;
   color: #b0b0b0;
   font-family: poppins, sans-serif;
@@ -302,7 +302,7 @@ nav {
 
 .card li{
   color: #e5e7eb;
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
   left: 40px;
 }
